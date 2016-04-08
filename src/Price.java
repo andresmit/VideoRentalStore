@@ -5,7 +5,7 @@
 abstract class Price {
 
 
-    abstract int getPriceCode();
+    abstract int getPriceCode();}
 
     class OldFilmPrice extends Price {
         int getPriceCode() {
@@ -21,4 +21,4 @@ abstract class Price {
         int getPriceCode() {
             return Movie.REGULAR;
         }
-    }}
+    }
